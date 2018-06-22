@@ -1,6 +1,11 @@
 server:
   port: 8764
   
+security:
+  oauth2:
+    resource:
+      filter-order=5
+  
 eureka:
   instance:
     preferIpAddress: true
